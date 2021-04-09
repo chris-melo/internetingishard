@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+.photo img {
+  width: 100%;
+  display: block;
+}
+
+.illustration {
+  width: 100%;
+  display: block;
+}
+
 .page {
   display: flex;
   flex-wrap: wrap;
@@ -24,6 +34,9 @@
 
 .header {
   background-color: #B2D6FF;
+  height: auto;
+  justify-content: inherit;
+  align-items: inherit;
 }
 
 .content {
